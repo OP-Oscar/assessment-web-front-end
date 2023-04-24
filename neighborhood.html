@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>OP's Profile</title>
-    <link rel="shortcut icon" type="image/png" href="/rd.png"/>
+	<title>OP's City</title>
+    <link rel="shortcut icon" type="image/png" href="./images/rd.png"/>
 	<link href="styles.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital@1&display=swap" rel="stylesheet">
+
+
 </head>
 <body>
     <nav>
@@ -15,9 +20,9 @@
 	    </ol>
 	</nav>
 
-    <h1 style="text-align:center">Hello from Houston!</h1>
+    <h1 class="hfont" style="text-align:center">Hello from Houston!</h1>
     <h2 style="text-align:center">A little about Houston</h2>
-    <img src="houston.jpg" id="main-duck-img" class="img-center">
+    <img src="./images/houston.jpg" id="main-duck-img" class="img-center">
 
     <p style="text-align:center">
         Fun fact! Houston is the largest city in Texas! Population is over 2.3million. That is quite a lot of folks and it has to do with the strong economy found in good o'l Houston. Things started off with oil and gas and from there things grew. Houston also has a large section of HealthCare business which attacts people from many different places. A city this large has to keep its people happy and what a a best way by having a lot of events and may restaurant options. You can find almost any quisine in Houston since it has a highly diverse population. Below you will find additonal handy details.  
@@ -27,15 +32,15 @@
         <!-- <p id="p-coding-languages" style="text-align: center;">Coding Languages:</p>
         <p id="p-hobbies" style="text-align: center;">Hobbies:</p>
         <p id="p-favorites" style="text-align: center;">Favorites:</p> -->
-        <img src="park.jpg" id="main-duck-img" class="img-center" style="padding: 10px;">
-        <img src="event.jpeg" id="main-duck-img" class="img-center" style="padding: 10px;">
-        <img src="food.jpeg" id="main-duck-img" class="img-center" style="padding: 10px;">
+        <img src="./images/park.jpg" id="park-img" class="img-center" style="padding: 10px;">
+        <img src="./images/event.jpeg" id="event-img" class="img-center" style="padding: 10px;">
+        <img src="./images/food.jpeg" id="food-img" class="img-center" style="padding: 10px;">
     </div>
 
     <div id="categories-titles">
-        <p id="p-coding-languages" style="text-align: center;">Parks:</p>
-        <p id="p-hobbies" style="text-align: center;">Events:</p>
-        <p id="p-favorites" style="text-align: center;">Restaurants:</p>
+        <p id="p-park" style="text-align: center;">Parks:</p>
+        <p id="p-event" style="text-align: center;">Events:</p>
+        <p id="p-restaurant" style="text-align: center;">Restaurants:</p>
     </div>
 
 
@@ -61,12 +66,14 @@
 
     <section id="food" style="width: 166.66px; text-align: center;">
         <ul style="list-style: none;">
-            <li><button class ="resBtn" id="color" ><a href="https://www.killensbarbecue.com">Killen's Barbecue</a></button></li>
+            <li><button class ="resBtn" id="bbq" style="width: 166px;"><a href="https://www.killensbarbecue.com">Killen's Barbecue</a></button></li>
 
-            <li><button class ="resBtn" id="place"><a href="http://www.theboilhouse.com">Boil House</a></button></li>
+            <li><button class ="resBtn" id="cajun" style="width: 166px;"><a href="http://www.theboilhouse.com">Boil House</a></button></li>
         
 
-           <li><button class ="resBtn" id="ritual"><a href="https://www.vbistrotexas.com">MV Bistro Noodle & Grill</a></button></li>
+           <li><button class ="resBtn" id="vietnamese" style="width: 166px;"><a href="https://www.vbistrotexas.com">MV Bistro Noodle & Grill</a></button></li>
+
+           <li><button class ="resBtn" id="seafood" style="width: 166px;"><a href="https://www.aquariumrestaurants.com/downtownaquariumhouston/">Downtown Aquarium Restaurant</a></button></li>
 
            <br>
            <br>

@@ -87,5 +87,29 @@ label {
 	border-color: gray;
 	font-size: medium;
 	color: white;
+	margin	: 2px;
 	/* font-size: 18px; */
 }
+
+.hfont{
+	font-family: 'Bruno Ace', cursive;
+	font-size: 40px;
+	text-decoration:underline;
+}
+
+#p-park{
+	width: 166.66px;
+	text-align: left;
+	text-decoration:underline;
+}
+#p-event{
+	width: 166.66px;
+	text-align: center;
+	text-decoration:underline;
+}
+#p-restaurant{
+	width: 166.66px;
+	text-align: right;
+	text-decoration:underline;
+}
+
