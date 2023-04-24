@@ -11,8 +11,9 @@ nav {
 	border-bottom: 2px solid orange;
 }
 
-ol {
+ol,li, ul {
 	padding-left: 0;
+	margin: 0;
 }
 
 .crumb {
@@ -31,8 +32,60 @@ a:visited {
 
 input {
 	display: block;
+	flex: none
 }
 
 img {
 	max-width: 300px;
+}
+
+.img-center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+  }
+
+
+label {
+	display: flex;
+	align-items: center;
+}
+
+#p-coding-languages{
+	width: 166.66px;
+	text-align: left;
+	text-decoration:underline;
+}
+#p-hobbies{
+	width: 166.66px;
+	text-align: center;
+	text-decoration:underline;
+}
+#p-favorites{
+	width: 166.66px;
+	text-align: right;
+	text-decoration:underline;
+}
+
+#categories, #categories-titles{
+	display: flex;
+	flex-direction: row; 
+	align-items: space-around;
+	justify-content: space-evenly;
+   }
+
+.favBtn{
+	background-color: yellow;
+	border-color: yellow;
+	font-size: larger;
+	/* font-size: 18px; */
+}
+
+.resBtn{
+	background-color: black;
+	border-color: gray;
+	font-size: medium;
+	color: white;
+	/* font-size: 18px; */
 }
